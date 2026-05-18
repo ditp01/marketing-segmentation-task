@@ -1,0 +1,16 @@
+metric,value
+input_rows,2212
+output_rows,2212
+input_columns,27
+output_columns,48
+engineered_features_created,21
+dt_customer_parse_failures,0
+reference_date,2014-06-29
+reference_year,2014
+age_plausibility_min,18
+age_plausibility_max,100
+zero_total_purchase_rows,6
+zero_total_spend_rows,0
+zero_web_visit_rows,10
+recommended_non_clustering_columns_present,"ID,Response,AcceptedCmp1,AcceptedCmp2,AcceptedCmp3,AcceptedCmp4,AcceptedCmp5,Campaign_Acceptance_Total"
+engineered_feature_names,"Age,Age_Plausible_Flag,Customer_Tenure_Days,Customer_Tenure_Years,Total_Spend,Total_Purchases,Campaign_Acceptance_Total,Household_Children,Has_Children,Web_Purchase_Share,Catalog_Purchase_Share,Store_Purchase_Share,Deal_Purchase_Share,Wine_Spend_Share,Fruit_Spend_Share,Meat_Spend_Share,Fish_Spend_Share,Sweet_Spend_Share,Gold_Spend_Share,Average_Spend_Per_Purchase,Web_Purchases_Per_Web_Visit"

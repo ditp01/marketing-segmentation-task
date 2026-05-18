@@ -2,7 +2,7 @@
 
 ## Status
 
-Not started
+Completed
 
 ## Goal
 
@@ -127,8 +127,8 @@ After completing, please provide a set of descriptive statistics for the new dat
 
 ## Review notes
 
-_To be completed after reviewing Codex output._
+Happy with the reviewed feature engineering outputs.
 
 ## Next steps
 
-_To be completed before moving to the next stage._
+No next steps here - straight on to EDA.

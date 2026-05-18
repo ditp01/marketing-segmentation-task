@@ -231,17 +231,17 @@ def main() -> None:
         ]
     )
 
-    data_quality_summary.to_csv(output_tables_dir / "data_quality_summary.csv", index=False)
-    missing_values.to_csv(output_tables_dir / "missing_values.csv", index=False)
-    numeric_summary.to_csv(output_tables_dir / "numeric_summary.csv", index=False)
-    categorical_summary.to_csv(output_tables_dir / "categorical_summary.csv", index=False)
+    data_quality_summary.to_csv(output_tables_dir / "01_data_quality_summary.csv", index=False)
+    missing_values.to_csv(output_tables_dir / "01_missing_values.csv", index=False)
+    numeric_summary.to_csv(output_tables_dir / "01_numeric_summary.csv", index=False)
+    categorical_summary.to_csv(output_tables_dir / "01_categorical_summary.csv", index=False)
 
     # Additional helpful tables for review.
-    binary_validation.to_csv(output_tables_dir / "binary_validation.csv", index=False)
-    constant_table.to_csv(output_tables_dir / "constant_columns.csv", index=False)
-    logical_consistency.to_csv(output_tables_dir / "logical_consistency_checks.csv", index=False)
-    plausibility.to_csv(output_tables_dir / "plausibility_checks.csv", index=False)
-    missingness_behavior.to_csv(output_tables_dir / "missingness_behavior_comparison.csv", index=False)
+    binary_validation.to_csv(output_tables_dir / "01_binary_validation.csv", index=False)
+    constant_table.to_csv(output_tables_dir / "01_constant_columns.csv", index=False)
+    logical_consistency.to_csv(output_tables_dir / "01_logical_consistency_checks.csv", index=False)
+    plausibility.to_csv(output_tables_dir / "01_plausibility_checks.csv", index=False)
+    missingness_behavior.to_csv(output_tables_dir / "01_missingness_behavior_comparison.csv", index=False)
 
     write_stage_markdown(
         output_path=output_stage_dir / "01-data-audit.md",
