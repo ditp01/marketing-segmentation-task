@@ -1,0 +1,3 @@
+Response,response_label,customer_count,avg_income,median_income,avg_total_spend,median_total_spend,avg_spend_per_purchase,median_spend_per_purchase
+0,Non-Responder,1879,50496.57637040979,50150.0,540.2086216072379,315.0,34.12497312297416,27.727272727272727
+1,Responder,333,60209.67567567567,64090.0,985.6606606606607,1053.0,56.206729546871784,46.388888888888886

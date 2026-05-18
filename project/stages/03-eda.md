@@ -77,8 +77,21 @@ Create a small number of useful charts:
 
 ## Review notes
 
-_To be completed after reviewing Codex output._
+After reading the EDA outputs, here are some possible segments based on the patterns emerging before clustering:
+
+1. High-value high-income responders
+High income/spend, strong wine/meat spend, high catalogue use, high response.
+
+2. Family/value-oriented customers
+Children at home, lower spend, more deal-sensitive, lower response.
+
+3. Low-value browsers or low-engagement customers
+Low spend, low purchase volume, possibly high web visits but weak conversion.
+
+4. Lapsed or lower-recency customers
+Historically meaningful customers but less recent, could be used for win-back targeting.
+
 
 ## Next steps
 
-_To be completed before moving to the next stage._
+Move on to clustering approaches to see if these segments can be validated or further segments can be identified through unsupervised techniques.

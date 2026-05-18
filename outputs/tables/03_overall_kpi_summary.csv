@@ -1,0 +1,11 @@
+metric,value
+customer_count,2212.0
+response_rate_pct,15.054249547920435
+total_spend_sum,1343277.0
+avg_total_spend,607.2680831826401
+median_total_spend,397.0
+avg_income,51958.81057866185
+avg_total_purchases,12.566907775768536
+avg_recency_days,49.019439421338156
+avg_campaign_acceptance_total,0.298372513562387
+has_children_rate_pct,71.42857142857143

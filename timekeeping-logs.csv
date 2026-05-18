@@ -6,3 +6,5 @@ date,stage,activity,start,end,notes
 2026-05-18,Stage 1,Data Audit,15:25,15:37,Reviewing output of data audit and making decisions for next steps (then generating marketing_campaign_processed.csv)
 2026-05-18,Stage 2,Feature Engineering,15:38,15:46,Writing the spec for the feature engineering stage
 2026-05-18,Stage 3,EDA,15:50,15:59,Reviewing output of feature engineering stage, then writing the spec for the EDA stage
+2026-05-18,Stage 3,EDA,16:00,16:12,Reviewing output of EDA stage
+2026-05-18,Stage 4,Clustering,16:12,16:17,Preparing spec for Kmeans vs GMM stage
