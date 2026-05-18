@@ -1,0 +1,8 @@
+column,present,invalid_value_count,invalid_value_pct,zero_count,one_count,positive_rate_pct,missing_count
+AcceptedCmp1,True,0,0.0,2096,144,6.428571428571428,0
+AcceptedCmp2,True,0,0.0,2210,30,1.3392857142857142,0
+AcceptedCmp3,True,0,0.0,2077,163,7.276785714285714,0
+AcceptedCmp4,True,0,0.0,2073,167,7.455357142857142,0
+AcceptedCmp5,True,0,0.0,2077,163,7.276785714285714,0
+Complain,True,0,0.0,2219,21,0.9375,0
+Response,True,0,0.0,1906,334,14.910714285714285,0

@@ -1,0 +1,14 @@
+metric,value
+row_count,2240
+column_count,29
+missing_cells_total,24
+rows_with_any_missing,24
+duplicate_rows,0
+duplicate_id_rows,0
+duplicate_id_unique_values,0
+constant_columns,2
+near_constant_columns,2
+binary_columns_checked,7
+binary_invalid_value_cells,0
+date_parse_failures,0
+numeric_columns_with_outliers,12

@@ -100,8 +100,17 @@ Create or update:
 
 ## Review notes
 
-_To be completed after reviewing Codex output._
+Decisions based on my review of the audit outputs:
+
+- The 24 missing `Income` values - delete those cases. Less than 1% of dataset, and uncertain why blank (interesting to note the lower Wine spend)
+- Delete the `Income = 666666` outlier.
+- Handle implausible `Year_Birth` values before deriving age - again, drop the cases for this run. I'm aware there are other options (capping, etc) but there are very few cases that fall into this category.
+- Drop `Z_CostContact` and `Z_Revenue` from modelling because they are constant.
+- Keep `ID` only as an identifier.
+- Exclude `Response` and `AcceptedCmp1-5` from clustering inputs; reserve them for segment evaluation.
+- Rare `Marital_Status` items: `Alone`, `Absurd`, `YOLO`. For these, I'd like to convert them to `Unknown`. I suspect that responding like that to the question may actually tell us something behavioural about the respondents.
 
 ## Next steps
 
-_To be completed before moving to the next stage._
+1. Create a new marketing_campaign_processed.csv file in data/processed, with the following changes:
+2. Drop cases/modify categories as outlined above.

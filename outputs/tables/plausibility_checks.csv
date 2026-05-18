@@ -1,0 +1,9 @@
+check,issue_count,issue_pct
+income_above_300k,1,0.044642857142857144
+likely_over_100_year_birth,3,0.13392857142857142
+likely_under_18_year_birth,0,0.0
+negative_income,0,0.0
+rows_with_any_negative_num_variable,0,0.0
+rows_with_any_negative_spend,0,0.0
+year_birth_outside_1900_current_year,2,0.08928571428571429
+zero_income,0,0.0

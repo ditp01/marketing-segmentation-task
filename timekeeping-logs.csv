@@ -2,3 +2,5 @@ date,stage,activity,start,end,notes
 2026-05-18,Set-up,Structuring repo for work,14:08,14:12,Building a folder system for following my planned segmentation workflow
 2026-05-18,Set-up,Setting up venv with requirements,14:13,14:26,Creating a venv so we can work inside it preloaded with some segmentation and analytics tools as well as writing the first README
 2026-05-18,Set-up,Documentation and guidance,14:30,14:34,Specification for AGENTS.md
+2026-05-18,Stage 1,Data Audit,14:35,14:50,Writing stage specification for data audit then running agent
+2026-05-18,Stage 1,Data Audit,15:25,15:37,Reviewing output of data audit and making decisions for next steps

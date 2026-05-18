@@ -1,0 +1,14 @@
+column,level,count,pct,is_rare,is_missing_level
+Education,Graduation,1127,50.31250000000001,False,False
+Education,PhD,486,21.696428571428573,False,False
+Education,Master,370,16.517857142857142,False,False
+Education,2n Cycle,203,9.0625,False,False
+Education,Basic,54,2.410714285714286,False,False
+Marital_Status,Married,864,38.57142857142858,False,False
+Marital_Status,Together,580,25.892857142857146,False,False
+Marital_Status,Single,480,21.428571428571427,False,False
+Marital_Status,Divorced,232,10.357142857142858,False,False
+Marital_Status,Widow,77,3.4375000000000004,False,False
+Marital_Status,Alone,3,0.13392857142857142,True,False
+Marital_Status,Absurd,2,0.08928571428571429,True,False
+Marital_Status,YOLO,2,0.08928571428571429,True,False
