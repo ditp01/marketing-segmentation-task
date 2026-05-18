@@ -3,4 +3,5 @@ date,stage,activity,start,end,notes
 2026-05-18,Set-up,Setting up venv with requirements,14:13,14:26,Creating a venv so we can work inside it preloaded with some segmentation and analytics tools as well as writing the first README
 2026-05-18,Set-up,Documentation and guidance,14:30,14:34,Specification for AGENTS.md
 2026-05-18,Stage 1,Data Audit,14:35,14:50,Writing stage specification for data audit then running agent
-2026-05-18,Stage 1,Data Audit,15:25,15:37,Reviewing output of data audit and making decisions for next steps
+2026-05-18,Stage 1,Data Audit,15:25,15:37,Reviewing output of data audit and making decisions for next steps (then generating marketing_campaign_processed.csv)
+2026-05-18,Stage 2,Feature Engineering,15:38,15:46,Writing the spec for the feature engineering stage

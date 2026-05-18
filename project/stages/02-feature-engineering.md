@@ -1,4 +1,4 @@
-# Stage XX: Stage Name
+# Stage 2: Feature Engineering
 
 ## Status
 
@@ -90,48 +90,40 @@ Create derived features: age, tenure, total spend, total purchases, campaign acc
 
 ## Context
 
-Relevant background from previous stages, if any.
+You'll find the relevant context in the previous project stage.
 
 ## Inputs
 
-Files Codex should read or use.
-
-Examples:
-- `data/raw/marketing_campaign.csv`
-- `data/processed/customers_features.csv`
-- `project/decisions.md`
-- `outputs/stage-outputs/previous-stage.md`
+- `data/processed/marketing_campaign_processed.csv`
 
 ## Instructions for Codex
 
-Complete this stage only.
+Complete this stage only. Write the 02_build_features.py script to fulfil the instructions above.
 
-Specific instructions:
-- 
-- 
-- 
-
-Do not:
-- 
-- 
+After completing, please provide a set of descriptive statistics for the new dataset, for me to evaluate.
 
 ## Deliverables
 
-Expected files to create or update.
-
-Examples:
-- `scripts/01_data_audit.py`
-- `src/load_data.py`
-- `outputs/stage-outputs/01-data-audit.md`
-- `outputs/tables/data_quality_summary.csv`
+- `scripts/02_build_features.py`
+- `data/processed/marketing_campaign_processed_features_engineered.csv`
+- `outputs/stage-outputs/02-feature-engineering.md`
+- `outputs/tables/02_feature_summary.csv`
+- `outputs/tables/02_engineered_numeric_summary.csv`
+- `outputs/tables/02_missing_values_after_feature_engineering.csv`
 
 ## Definition of done
 
-- [ ] Script runs end to end
-- [ ] Outputs are saved in the expected locations
-- [ ] Stage output markdown is clear enough for review
-- [ ] Assumptions or data issues are documented
-- [ ] No unnecessary later-stage work has been done
+
+- [ ] `python scripts/02_build_features.py` runs successfully from the repo root.
+- [ ] The script reads `data/processed/marketing_campaign_processed.csv`.
+- [ ] The engineered dataset is saved to `data/processed/marketing_campaign_processed_features_engineered.csv`.
+- [ ] The output dataset preserves `ID` and has the same number of rows as the input, unless exclusions are explicitly documented.
+- [ ] The planned derived features are created: age, tenure, total spend, total purchases, campaign acceptance total, household children, channel shares, category spend shares, average spend per purchase, and any optional web engagement feature.
+- [ ] Reference dates, age handling, missing income handling, and division-by-zero handling are documented.
+- [ ] `Z_CostContact`, `Z_Revenue`, `Response`, and campaign acceptance fields are not treated as clustering inputs.
+- [ ] Descriptive statistics for the engineered dataset are saved under `outputs/tables/`.
+- [ ] A concise review summary is saved to `outputs/stage-outputs/02-feature-engineering.md`.
+- [ ] The summary clearly states assumptions, features created, key checks, and recommended next steps for EDA.
 
 ## Review notes
 
