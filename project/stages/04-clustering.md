@@ -239,8 +239,9 @@ The summary should include:
 
 ## Review notes
 
-_To be completed after reviewing Codex output._
+K means produces three very neat, clear groups, while GMM creates smaller niches.
+For this exercise, where clear groups are an advantage (and it's a small toy dataset), let's go with K means.
 
 ## Next steps
 
-_To be completed before moving to the next stage._
+Segment profiling based on the clustering.
