@@ -1,0 +1,3 @@
+date,stage,activity,start,end,notes
+2026-05-18,Set-up,Structuring repo for work,14:08,14:12,Building a folder system for following my planned segmentation workflow
+2026-05-18,Set-up,Setting up venv with requirements,14:13,14:26,Creating a venv so we can work inside it preloaded with some segmentation and analytics tools as well as writing the first README
