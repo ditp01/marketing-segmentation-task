@@ -1,0 +1,20 @@
+feature_original,feature_model_input,log1p_applied,excluded_from_clustering,notes
+Age,log1p_Age,False,False,Used as-is before scaling.
+Income,log1p_Income,True,False,Magnitude feature transformed with log1p to reduce skew.
+Customer_Tenure_Years,log1p_Customer_Tenure_Years,False,False,Used as-is before scaling.
+Recency,log1p_Recency,False,False,Used as-is before scaling.
+Total_Spend,log1p_Total_Spend,True,False,Magnitude feature transformed with log1p to reduce skew.
+Total_Purchases,log1p_Total_Purchases,True,False,Magnitude feature transformed with log1p to reduce skew.
+Average_Spend_Per_Purchase,log1p_Average_Spend_Per_Purchase,True,False,Magnitude feature transformed with log1p to reduce skew.
+NumWebVisitsMonth,log1p_NumWebVisitsMonth,True,False,Magnitude feature transformed with log1p to reduce skew.
+Household_Children,log1p_Household_Children,False,False,Used as-is before scaling.
+Web_Purchase_Share,log1p_Web_Purchase_Share,False,False,Used as-is before scaling.
+Catalog_Purchase_Share,log1p_Catalog_Purchase_Share,False,False,Used as-is before scaling.
+Store_Purchase_Share,log1p_Store_Purchase_Share,False,False,Used as-is before scaling.
+Deal_Purchase_Share,log1p_Deal_Purchase_Share,False,False,Used as-is before scaling.
+Wine_Spend_Share,log1p_Wine_Spend_Share,False,False,Used as-is before scaling.
+Meat_Spend_Share,log1p_Meat_Spend_Share,False,False,Used as-is before scaling.
+Fish_Spend_Share,log1p_Fish_Spend_Share,False,False,Used as-is before scaling.
+Fruit_Spend_Share,log1p_Fruit_Spend_Share,False,False,Used as-is before scaling.
+Sweet_Spend_Share,log1p_Sweet_Spend_Share,False,False,Used as-is before scaling.
+Gold_Spend_Share,log1p_Gold_Spend_Share,False,False,Used as-is before scaling.
