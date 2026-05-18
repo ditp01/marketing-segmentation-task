@@ -8,3 +8,4 @@ date,stage,activity,start,end,notes
 2026-05-18,Stage 3,EDA,15:50,15:59,Reviewing output of feature engineering stage, then writing the spec for the EDA stage
 2026-05-18,Stage 3,EDA,16:00,16:12,Reviewing output of EDA stage
 2026-05-18,Stage 4,Clustering,16:12,16:17,Preparing spec for Kmeans vs GMM stage
+2026-05-18,Stage 5,Segment Profiling,16:25,16:39,After running clustering I reviewed outputs and prepared for segment profiling and am now running segment profiling
