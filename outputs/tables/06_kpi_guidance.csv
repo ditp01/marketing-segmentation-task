@@ -1,0 +1,37 @@
+segment_name,kpi_name,baseline_value,target_guidance,data_status,notes
+Segment 0: High-Value Premium Buyers,response_rate,23.5%,>= 24.0%,available_in_dataset,Directly observed from stage-05 response summary.
+Segment 0: High-Value Premium Buyers,average_total_spend,1243.1,>= 1250.0,available_in_dataset,Use as core commercial value KPI.
+Segment 0: High-Value Premium Buyers,average_spend_per_purchase,66.3,>= 67.0,available_in_dataset,Useful for testing premium or bundle positioning impact.
+Segment 0: High-Value Premium Buyers,purchase_count,19.2,>= 19.5,available_in_dataset,Proxy for frequency and repeat engagement.
+Segment 0: High-Value Premium Buyers,channel_mix,Web 26.6% | Catalog 29.4% | Store 44.0%,Catalog + Store >= 72%; Web 24-30%,available_in_dataset,Channel shares indicate preferred route to market by segment.
+Segment 0: High-Value Premium Buyers,product_category_spend,Wine 545.6 | Meat 407.1 | Gold 72.9,Wine >= 550.0 and Meat >= 410.0,available_in_dataset,Category mix helps align assortment and messaging strategy.
+Segment 0: High-Value Premium Buyers,deal_purchase_share,8.5%,<= 10.0%,available_in_dataset,Tracks discount dependency and margin risk.
+Segment 0: High-Value Premium Buyers,campaign_acceptance_rate,0.56,>= 0.60,available_in_dataset,Average accepted campaigns per customer from historical data.
+Segment 0: High-Value Premium Buyers,complaint_rate,0.85%,<= 1.0%,available_in_dataset,Safeguard to prevent value strategy from harming customer experience.
+Segment 0: High-Value Premium Buyers,recency,49.9 days,<= 50.0 days,available_in_dataset,Lower recency indicates more recent purchasing activity.
+Segment 0: High-Value Premium Buyers,incremental_spend_uplift_vs_holdout,Not available in historical snapshot,>= +5% incremental spend vs holdout with no deal-share increase above 1pp,provisional_requires_more_data,Requires controlled holdout test to isolate causal uplift.
+Segment 0: High-Value Premium Buyers,net_margin_per_discounted_order,Not available (cost/margin inputs absent),Maintain positive net margin per discounted order,provisional_requires_more_data,"Requires COGS, discount depth, and contribution margin data."
+Segment 1: Value-Conscious Family Shoppers,response_rate,12.0%,>= 13.0%,available_in_dataset,Directly observed from stage-05 response summary.
+Segment 1: Value-Conscious Family Shoppers,average_total_spend,495.5,>= 545.0,available_in_dataset,Use as core commercial value KPI.
+Segment 1: Value-Conscious Family Shoppers,average_spend_per_purchase,32.8,>= 35.0,available_in_dataset,Useful for testing premium or bundle positioning impact.
+Segment 1: Value-Conscious Family Shoppers,purchase_count,12.9,>= 13.5,available_in_dataset,Proxy for frequency and repeat engagement.
+Segment 1: Value-Conscious Family Shoppers,channel_mix,Web 38.4% | Catalog 13.4% | Store 48.2%,Web + Store >= 84%; Catalog 10-16%,available_in_dataset,Channel shares indicate preferred route to market by segment.
+Segment 1: Value-Conscious Family Shoppers,product_category_spend,Wine 333.6 | Meat 82.4 | Gold 41.3,Wine >= 340.0 and Meat >= 90.0,available_in_dataset,Category mix helps align assortment and messaging strategy.
+Segment 1: Value-Conscious Family Shoppers,deal_purchase_share,29.1%,28.0%-33.0%,available_in_dataset,Tracks discount dependency and margin risk.
+Segment 1: Value-Conscious Family Shoppers,campaign_acceptance_rate,0.26,>= 0.30,available_in_dataset,Average accepted campaigns per customer from historical data.
+Segment 1: Value-Conscious Family Shoppers,complaint_rate,0.72%,<= 1.0%,available_in_dataset,Safeguard to prevent value strategy from harming customer experience.
+Segment 1: Value-Conscious Family Shoppers,recency,47.8 days,<= 45.0 days,available_in_dataset,Lower recency indicates more recent purchasing activity.
+Segment 1: Value-Conscious Family Shoppers,incremental_spend_uplift_vs_holdout,Not available in historical snapshot,>= +8% incremental basket value vs holdout in promoted cohorts,provisional_requires_more_data,Requires controlled holdout test to isolate causal uplift.
+Segment 1: Value-Conscious Family Shoppers,net_margin_per_discounted_order,Not available (cost/margin inputs absent),Promotions must deliver non-negative gross margin uplift,provisional_requires_more_data,"Requires COGS, discount depth, and contribution margin data."
+Segment 2: Low-Value Deal Seekers,response_rate,10.0%,>= 10.5%,available_in_dataset,Directly observed from stage-05 response summary.
+Segment 2: Low-Value Deal Seekers,average_total_spend,77.4,>= 90.0,available_in_dataset,Use as core commercial value KPI.
+Segment 2: Low-Value Deal Seekers,average_spend_per_purchase,12.9,>= 13.5,available_in_dataset,Useful for testing premium or bundle positioning impact.
+Segment 2: Low-Value Deal Seekers,purchase_count,5.3,>= 5.8,available_in_dataset,Proxy for frequency and repeat engagement.
+Segment 2: Low-Value Deal Seekers,channel_mix,Web 32.6% | Catalog 6.7% | Store 59.8%,Store >= 58%; Catalog <= 10%; Web 28-35%,available_in_dataset,Channel shares indicate preferred route to market by segment.
+Segment 2: Low-Value Deal Seekers,product_category_spend,Wine 17.2 | Meat 19.8 | Gold 16.8,Meat >= 22.0 and Wine >= 20.0,available_in_dataset,Category mix helps align assortment and messaging strategy.
+Segment 2: Low-Value Deal Seekers,deal_purchase_share,36.3%,34.0%-40.0%,available_in_dataset,Tracks discount dependency and margin risk.
+Segment 2: Low-Value Deal Seekers,campaign_acceptance_rate,0.07,>= 0.09,available_in_dataset,Average accepted campaigns per customer from historical data.
+Segment 2: Low-Value Deal Seekers,complaint_rate,1.19%,<= 1.5%,available_in_dataset,Safeguard to prevent value strategy from harming customer experience.
+Segment 2: Low-Value Deal Seekers,recency,49.6 days,<= 48.0 days,available_in_dataset,Lower recency indicates more recent purchasing activity.
+Segment 2: Low-Value Deal Seekers,incremental_spend_uplift_vs_holdout,Not available in historical snapshot,>= +10% incremental spend in contacted reactivation cohort,provisional_requires_more_data,Requires controlled holdout test to isolate causal uplift.
+Segment 2: Low-Value Deal Seekers,net_margin_per_discounted_order,Not available (cost/margin inputs absent),Discount activity should be retained only if net margin is positive,provisional_requires_more_data,"Requires COGS, discount depth, and contribution margin data."
