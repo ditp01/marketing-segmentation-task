@@ -9,3 +9,5 @@ date,stage,activity,start,end,notes
 2026-05-18,Stage 3,EDA,16:00,16:12,Reviewing output of EDA stage
 2026-05-18,Stage 4,Clustering,16:12,16:17,Preparing spec for Kmeans vs GMM stage
 2026-05-18,Stage 5,Segment Profiling,16:25,16:39,After running clustering I reviewed outputs and prepared for segment profiling and am now running segment profiling
+2026-05-19,Presentation,Design stuff,15:04,15:16,Looking at M&C Saatchi Fluency design and mocking up a simple slide template to use for presenting results
+2026-05-19,Stage 6,Recommendations and final report,15:16,15:41,Reviewing segmentation results and making decisions about final report and preparing the markdown spec for the final run of analysis

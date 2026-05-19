@@ -2,7 +2,7 @@
 
 ## Status
 
-Not started
+Complete
 
 ## Goal
 
@@ -239,8 +239,12 @@ The summary should include:
 
 ## Review notes
 
-_To be completed after reviewing Codex output._
+The conclusions of the segment profiling stage are sound (and match some of the hypothesised groups after the EDA stage). So:
+
+1. The client should treat these three groups as marketing segments, because they are behaviourally different, have different buying patterns, different underlying priorities, and will respond positively to different styles of campaign. 2. Retitle them: High-value premium buyers, Value-conscious family shoppers, Low-value deal seekers.
+
+2. The segments should be retitled: 0 = High-value premium buyers, 1= Value-conscious family shoppers, 2= Low-value deal seekers.
 
 ## Next steps
 
-_To be completed before moving to the next stage._
+To move on to recommendations and material for the final report ASAP - running low-ish on time.

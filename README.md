@@ -30,8 +30,7 @@ My approach here is a staged analysis pipeline, working through:
 03-eda
 04-clustering
 05-segment-profiling
-06-recommendations
-07-final-report
+06-recommendations-final-report
 
 At the end of each stage of analysis, I evaluate the results and decide what the next stage should incorporate.
 

@@ -89,7 +89,7 @@ Children at home, lower spend, more deal-sensitive, lower response.
 Low spend, low purchase volume, possibly high web visits but weak conversion.
 
 4. Lapsed or lower-recency customers
-Historically meaningful customers but less recent, could be used for win-back targeting.
+Historical customers but less recent, could be used for win-back targeting.
 
 
 ## Next steps
