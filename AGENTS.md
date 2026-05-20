@@ -9,8 +9,6 @@ The goal is to produce commercially useful customer segments and marketing recom
 This project is being completed in stages.
 
 For each task:
-- Read `project/brief.md`
-- Read `project/stage-plan.md`
 - Read the relevant file in `project/stages/`
 - Complete only the current stage
 - Do not jump ahead to later stages unless explicitly instructed

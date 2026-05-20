@@ -8,7 +8,7 @@ I've set it up the way I would if it were a professional project - just install 
 
 ## A note on timekeeping
 
-The interview/task brief included a time limit of 3 hours. I've taken that very literally and created timekeeping-logs.csv where I record how long each step took me, so that I can demonstrate what I can achieve under time constraints.
+The interview/task brief included a time limit of 3 hours. I've taken that very literally and created `timekeeping-logs.csv` where I record how long each step took me, so that I can demonstrate what I can achieve under time constraints.
 
 ## Approach to segmentation
 
@@ -17,7 +17,7 @@ Here I'm taking what I think is quite a conventional approach to segmentation:
 1. Audit data, clean, engineer features if required
 2. Exploratory analysis
 3. Come up with segment hypotheses
-4. Use clustering techniques (in this case: kmeans and gaussian mixture modelling) for some unsupervised work
+4. Use clustering techniques (in this case: kmeans and gaussian mixture models) for some unsupervised work
 5. Select and profile segments
 6. Make recommendations, produce final report
 
@@ -46,7 +46,8 @@ It's worth emphasising that I can hand-code projects like this: my MSc Disserati
 
 ## Guide to this repo
 
-- `data/raw/`: Original input dataset files (kept unchanged).
+- `project/stages/`: Stage-by-stage instructions and briefs for the workflow - to understand my method in more detail, read this.
+- `data/raw/`: Original input dataset file.
 - `data/processed/`: Cleaned and feature-engineered datasets used by later stages.
 - `src/`: Reusable Python modules for cleaning, feature engineering, EDA, clustering, profiling, and reporting logic.
 - `scripts/`: Runnable stage scripts that execute each step of the pipeline.
@@ -54,5 +55,4 @@ It's worth emphasising that I can hand-code projects like this: my MSc Disserati
 - `outputs/tables/`: CSV tables generated during analysis.
 - `outputs/models/`: Saved model artefacts from clustering.
 - `reports/figures/`: Generated charts and visual outputs.
-- `reports/final_report.md`: Final business-facing segmentation report.
-- `project/stages/`: Stage-by-stage instructions and briefs for the workflow.
+- `reports/final_report.md`: Final in-repo segmentation report, containing the material I used to produce the client-facing presentation.

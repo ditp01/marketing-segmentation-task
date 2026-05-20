@@ -1,4 +1,4 @@
-# Stage XX: Stage Name
+# Stage 3: EDA
 
 ## Status
 
